@@ -9,7 +9,7 @@ function PopoverNode({
   isConnectable: boolean;
 }) {
   return (
-    <Popover className="relative">
+    <Popover className="relative border-black border-1 radius-5 p-4">
       <Handle
         type="target"
         position={Position.Top}
@@ -17,7 +17,7 @@ function PopoverNode({
       />
       <Popover.Button>{data.label}</Popover.Button>
       <Popover.Panel>
-        <div className="">{data.text}</div>
+        <div>{data.text}</div>
         <a href={data.link} target="_blank" rel="noreferrer">
           {data.link}
         </a>
