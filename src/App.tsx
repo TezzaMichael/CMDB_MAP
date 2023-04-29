@@ -1,8 +1,6 @@
 import { useCallback } from "react";
 import TurboNode, { TurboNodeData } from "./components/TurboNode";
 import TurboEdge from "./components/TurboEdge";
-import FunctionIcon from "./components/FunctionIcon";
-import { FiFile } from "react-icons/fi";
 import { TbServerBolt, TbCode, TbCodePlus } from "react-icons/tb";
 
 import './index.css';
